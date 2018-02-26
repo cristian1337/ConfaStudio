@@ -1,0 +1,155 @@
+body {
+	background-color: #f3f3f3;
+}
+#header-container {
+	background-color: #601785;
+	color: white;
+	height: 80px;
+}
+#header-container .menu {
+	margin-top: 15px;
+	color: white;
+}
+#header-container .logotipo {
+	margin-top: 20px;
+}
+.orbit-image {
+	height: 530px;
+}
+#tarjetas .callout {
+	background-color: #ececec;
+	border: none;
+}
+#tarjetas h3 {
+	font-size: 15px;
+}
+#tarjetas p {
+	font-size: 13px;
+}
+#tarjetas .tarjeta {
+	padding-top: 20px;
+	background-color: #f8f8f8;
+	border-radius: 5%; 
+	box-shadow: 0px 3px #ececec;
+}
+#tarjetas .tarjeta:hover {
+	background-color: white;
+}
+#profesores .callout {
+	margin-top: 25px;
+	border: none;
+	background-color: #ececec;
+}
+
+.card-profile-stats {
+  border: 1px solid #cacaca;
+  margin: 0 0 1.25rem;
+  padding: 1.25rem;
+  background: #fefefe;
+}
+
+.card-profile-stats .card-profile-stats-intro {
+  text-align: center;
+}
+
+.card-profile-stats .card-profile-stats-intro .card-profile-stats-intro-pic {
+  border-radius: 50%;
+  margin: 0 0 1.25rem;
+}
+
+.card-profile-stats .card-profile-stats-intro .card-profile-stats-intro-content p:last-child {
+  margin: 0;
+}
+
+.card-profile-stats .card-profile-stats-container {
+  text-align: center;
+}
+
+.card-profile-stats .card-profile-stats-container .card-profile-stats-statistic {
+  margin: 0 0 1.25rem;
+}
+
+.card-profile-stats .card-profile-stats-container .card-profile-stats-statistic p:last-child {
+  margin: 0;
+}
+
+.card-profile-stats .card-profile-stats-more .card-profile-stats-more-link {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #0a0a0a;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.card-profile-stats .card-profile-stats-more .card-profile-stats-more-content {
+  display: none;
+}
+
+
+@media print, screen and (min-width: 64em) {
+  .card-profile-stats .card-profile-stats-intro {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    text-align: left;
+  }
+  .card-profile-stats .card-profile-stats-intro .card-profile-stats-intro-pic {
+    margin: 0 1.25rem 0 0;
+    max-width: 200px;
+  }
+  .card-profile-stats .card-profile-stats-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+}
+#footer {
+	background-color: #601785;
+	color: white;
+}
+#footer img {
+	border-radius: 8px;
+}
+#footer ul {
+	margin-top: 16px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+}
+#footer li {
+	padding-bottom: 15px;
+	list-style: none; 
+}
+#footer div {
+	margin-top: 20px;
+}
+#footer .logoF {
+	margin-bottom: 12px;
+}
+#social-container {
+	background-color: #B581E9;
+}
+#social-container img {
+	width: 32px;
+}
+#social-container div{
+	margin-top: 0px;
+}
+#social-container ul {
+	margin-top: 0px;
+}
+#social-container li {
+	padding-bottom: 0px;
+}

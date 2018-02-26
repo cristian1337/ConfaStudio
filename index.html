@@ -1,97 +1,228 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Confaestudio</title>
-</head>
-<body>
-	<header id="header">
-		<figure class="logotipo">
-			<img src="">	
-		</figure>
-		<nav class="menu">
-			<ul>
-				<li>
-					<a href="inicio">INICIO</a>
-				</li>
-				<li>
-					<a href="servicios">SERVICIOS</a>
-				</li>
-				<li>
-					<a href="cursos">CURSOS</a>
-				</li>
-				<li>
-					<a href="contacto">CONTACTO</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-  <div class="slider">
-    <img src="">
-    <h1 class="titulo1">INSTITUTO DE BELLEZA</h1>
-    <h2 class="subtitulo1">cursos 100% practicos y en varias regiones del país.</h2>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConfaStudio</title>
+    <link rel="stylesheet" type="iconos/foundation-icons.css" href="">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+<!-- header -->
+    <section id="header-container">
+      <div class="row">
+        <div class="column align-left">
+          <figure class="logotipo">
+            <img src="imagenes/logo.jpg" width="100p">  
+          </figure>
+        </div>
+        <div class="column align-right">
+          <nav class="menu">
+            <ul class="dropdown menu align-spaced" data-dropdown-menu>
+              <li>
+                <a href="#">INICIO</a>
+              </li>
+              <li>
+                <a href="#">SERVICIOS</a>
+              </li>
+              <li>
+                <a href="#">CURSOS</a>
+                <ul class="menu">
+                  <li><a href="#">> Manicure</a></li>
+                  <li><a href="#">> Barberia</a></li>
+                  <li><a href="#">> Peluqueria</a></li>
+                  <li><a href="#">> Masajes</a></li>
+                  <li><a href="#">> Peinados</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">CONTACTO</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+<!-- slider -->
+<section id="slider">
+  <div class="orbit"  data-orbit>
+    <div class="orbit-wrapper">
+      <div class="orbit-controls">
+        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+      </div>
+      <ul class="orbit-container">
+        <li class="is-active orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="imagenes/belleza1.jpg" alt="Space">
+            <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="imagenes/belleza2.jpg" alt="Space">
+            <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="imagenes/141.jpg" alt="Space">
+            <figcaption class="orbit-caption">Encapsulating</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="imagenes/belleza4.jpg" alt="Space">
+            <figcaption class="orbit-caption">Outta This World</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
   </div>
-  <section class="tarjetas">
-   <div class="certificaciones">
-    <figure id="logoCertificaciones">
-      <img src="">
-    </figure>
-    <h3 class="tituloTarjetas">CERTIFICACIONES</h3>
-    <h4 class="descripcion">Superintendencia Nacional de Salud y la Seccional de Salud y registro INVIMA.</h4>
-    <a class="boton" href="">ver más</a>
+</div>
+</section>
+<!-- Servicios -->
+<section id="tarjetas">
+  <div class="callout text-center">
+    <h1>Instituto de Belleza</h1>
+    <p>cursos 100% practicos y en varias regiones del país.</p>
+    <a class="button" href="#">VER MÁS</a>
   </div>
-  <div class="trayectoria">
-    <figure class="logoTrayectoria">
-      <img src="">
-    </figure>
-    <h3 class="tituloTarjetas">TRAYECTORIA</h3>
-    <h4 class="descripcion">ConfaStudio tiene presencia en el mercado desde 1997.</h4>
-    <a class="boton" href="">ver más</a>
+  <div class="row" data-equalizer>
+    <div class="column small-12 medium-2 medium-offset-1 text-center tarjeta">
+      <img src="imagenes/diploma.png">
+      <h3>CERTIFICACIONES</h3>
+      <p data-equalizer-watch>Superintendencia Nacional de Salud y la Seccional de Salud y registro INVIMA.</p>
+      <a class="button">VER MÁS</a>
+    </div>
+    <div class="column small-12 medium-2 medium-offset-1 text-center tarjeta">
+       <img src="imagenes/trayectoria.png">
+      <h3>TRAYECTORIA</h3>
+      <p data-equalizer-watch>ConfaStudio tiene presencia en el mercado desde 1997.</p>
+      <a class="button">VER MÁS</a>
+    </div>
+    <div class="column small-12 medium-2 medium-offset-1 text-center tarjeta">
+       <img src="imagenes/seminario.png">
+      <h3>SEMINARIOS</h3>
+      <p data-equalizer-watch>Seminarios de barberia, manicure, peluqueria y muchos más.</p>
+      <a class="button">VER MÁS</a>
+    </div>
+    <div class="column small-12 medium-2 medium-offset-1 text-center tarjeta">
+       <img src="imagenes/ubicacion.png">
+      <h3>UBICACIÓN</h3>
+      <p data-equalizer-watch>Contamos con sedes en la Clínica Las Vegas y en C.C. Los Molinos.</p>
+      <a class="button">VER MÁS</a>
+    </div>        
   </div>
-  <div class="ubicacion">
-    <figure class="logoUbicacion">
-      <img src="">
-    </figure>
-    <h3 class="tituloTarjetas">UBICACION</h3>
-    <h4 class="descripcion">Contamos con sedes en la Clínica Las Vegas y en C.C. Los Molinos.</h4>
-    <a class="boton" href="">ver más</a>
+</section>
+<!-- Profesores -->
+<section id="profesores">
+  <div class="callout text-center">
+    <h1>Nuestros profesores</h1>
+    <p>Contamos con el personal mas calificado del eje cafetero en el area de belleza</p>
   </div>
-  <div class="seminarios">
-    <figure class="logoSeminarios">
-      <img src="">
-    </figure>
-    <h3 class="tituloTarjetas">SEMINARIOS / CONVENCIONES</h3>
-    <h4 class="descripcion">Seminarios de barberia, manicure, peluqueria y muchos más.</h4>
-    <a class="boton" href="">ver más</a>
-  </div> 
-  </section>
-  <section class="profesores">
-    <h1 class="titulo1">NUESTROS PROFESORES</h1>
-  <div class="profesorBarberia">
-    <img class="profeBarberia" src="">
-    <h3 class="titulo2">PEPITO</h3>
-    <h4 class="descripcion">profesor de barberia, experto en fades y tribales</h4>
+  <div class="row">
+    <div class="column card-profile-stats small-12 medium-4">
+      <div class="card-profile-stats-intro">
+          <img class="card-profile-stats-intro-pic" src="https://pbs.twimg.com/profile_images/732634911761260544/OxHbNdTF.jpg" alt="profile-image" />
+        <div class="card-profile-stats-intro-content">
+          <h3>Joe Smith</h3>
+          <p>Joined Jan.16th 2017</small></p>
+        </div> <!-- /.card-profile-stats-intro-content -->
+      </div> <!-- /.card-profile-stats-intro -->
+        <hr />
+        <div class="card-profile-stats-more">
+            <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+          <div class="card-profile-stats-more-content">
+            <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
+            </p>
+          </div> <!-- /.card-profile-stats-more-content -->
+        </div> <!-- /.card-profile-stats-more -->
+    </div> <!-- /.card-profile-stats -->
+    <div class="column card-profile-stats small-12 medium-4">
+      <div class="card-profile-stats-intro">
+          <img class="card-profile-stats-intro-pic" src="https://pbs.twimg.com/profile_images/732634911761260544/OxHbNdTF.jpg" alt="profile-image" />
+        <div class="card-profile-stats-intro-content">
+          <h3>Joe Smith</h3>
+          <p>Joined Jan.16th 2017</small></p>
+        </div> <!-- /.card-profile-stats-intro-content -->
+      </div> <!-- /.card-profile-stats-intro -->
+        <hr />
+        <div class="card-profile-stats-more">
+            <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+          <div class="card-profile-stats-more-content">
+            <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
+            </p>
+          </div> <!-- /.card-profile-stats-more-content -->
+        </div> <!-- /.card-profile-stats-more -->
+    </div> <!-- /.card-profile-stats -->
+    <div class="column card-profile-stats small-12 medium-4 ">
+      <div class="card-profile-stats-intro">
+          <img class="card-profile-stats-intro-pic" src="https://pbs.twimg.com/profile_images/732634911761260544/OxHbNdTF.jpg" alt="profile-image" />
+        <div class="card-profile-stats-intro-content">
+          <h3>Joe Smith</h3>
+          <p>Joined Jan.16th 2017</small></p>
+        </div> <!-- /.card-profile-stats-intro-content -->
+      </div> <!-- /.card-profile-stats-intro -->
+        <hr />
+        <div class="card-profile-stats-more">
+            <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+          <div class="card-profile-stats-more-content">
+            <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
+            </p>
+          </div> <!-- /.card-profile-stats-more-content -->
+        </div> <!-- /.card-profile-stats-more -->
+    </div> <!-- /.card-profile-stats -->
   </div>
-  <div class="profesorManicure">
-    <img class="profeManicure" src="">
-    <h3 class="titulo2">PEPITA</h3>
-    <h4 class="descripcion">profesora de Manicure, experto en uñas y decorados actuales</h4>
+</section>
+<!-- Footer -->
+<section id="footer">
+  <div class="row">
+    <div class="column small-12 medium-6">
+      <img src="imagenes/logo.jpg" width="100p" class="logoF">
+      <img src="imagenes/mapa.png">
+      <ul>
+        <li>
+          <img src="imagenes/whatsapp.png" width="32">
+          +57 311 6548061
+        </li>
+        <li>
+          <img src="imagenes/google-plus.png" width="32">
+          confastudio@mail.com
+        </li>
+      </ul>
+    </div>
+    <div class="column small-12 medium-6">
+      <h3>Contactanos</h3>
+      <form class="contact-us-form">
+        <input type="text" placeholder="Nombre completo">
+        <input type="email" placeholder="Correo electronico">
+        <textarea name="message" id="" rows="8" placeholder="Pon tu mensaje aqui."></textarea>
+        <div class="contact-us-form-actions">
+          <input type="submit" class="button" value="ENVIAR" />
+        </div>
+      </form>
+    </div>
   </div>
-  <div class="profesorMasajes">
-    <img class="profeMasajes" src="">
-    <h3 class="titulo2">GERTRUDIZ</h3>
-    <h4 class="descripcion">profesora de masajes, experto en relajacion y masajes moldeadores</h4>
-  </div>
-  <div class="profesorPeluqueria">
-    <img class="profePeluqueria" src="">
-    <h3 class="titulo2">FLORINDA</h3>
-    <h4 class="descripcion">profesora de peluqueria, experto en cortes actuales y </h4>
-  </div>
-   <div class="profesorPeinados">
-    <img class="profePeinados" src="">
-    <h3 class="titulo2">CLIOTILDE</h3>
-    <h4 class="descripcion">profesora de peinados, experto en peinados actuales y peinados para fiestas</h4>
-  </div>
-  </section>
-</body>
+<!-- social -->
+  <section id="social-container">
+      <div class="row">
+        <ul class="menu column align-center">
+          <li><a href="#"><img src="imagenes/facebook.png"></a></li>
+          <li><a href="#"><img src="imagenes/instagram.png"></a></li>
+          <li><a href="#"><img src="imagenes/youtube.png"></a></li>
+        </ul>
+      </div>
+    </section>
+</section>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

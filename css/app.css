@@ -1,6 +1,13 @@
 body {
 	background-color: #f3f3f3;
 }
+#header-container li{
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+#header-container li:hover {
+  box-shadow: 0 0 0 1px #fefefe;
+}
 #header-container {
 	background-color: #601785;
 	color: white;
